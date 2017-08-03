@@ -1,0 +1,159 @@
+
+h1{
+    font-size: 45px;
+    font-color:;
+}
+
+body{
+	 
+/*    background-image: url(shutter3.jpg);
+*/    /*background-size: auto ;
+    background-repeat: no-repeat;
+    */
+    background-color: gray;
+
+}
+
+div{
+	width: auto;
+	height: auto;
+	/*background: lightblue;*/
+	margin:auto;
+	text-align: center;
+	/*overflow: scroll;*/
+}
+.wrap{
+	min-width: 600px;
+	width: 100%;
+	margin: 0px 0px 0px;
+	
+	height: auto;
+	overflow: hidden;
+	float:initial; 
+	word-spacing: 50px;
+
+	
+}
+
+
+
+.content,aside{
+	height: 600px;
+}
+.content{
+	/*background: lightblue;*/
+	/*float: left;*/
+	width: 80%;
+	height: 1000px;
+}
+aside ul{
+
+	list-style: none;
+	padding-left: 0
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: grey;
+    overflow: hidden;
+    height: auto;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    
+    
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+/*/*.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: auto/*#f9f9f9*/;
+ .a {   min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.hero{
+    font-size: 30px;
+    text-align: center;
+    height: 500px;
+    margin: 0px -10px 0px;
+    background-image: url("image1.jpg");
+    background-size: 1600px 500px;
+    background-repeat:no-repeat;
+    color: red; 
+
+}
+
+
+.fa{
+padding:20px;
+font-size: 30px;
+width: 50px;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;    
+}
+
+.fa:hover{
+    opacity: 0.7;
+}
+.fa-facebook{
+    background:#3B5998;
+    color:white;
+}
+.fa-twitter{
+    background:#55ACEE;
+    color:white;
+}
+.fa-youtube{
+    background:#BB0000;
+    color:white;
+}
+.try{
+    width: 100%;
+    margin: 1%;
+}
+.t1{
+    width:33% ;
+    float: left;
+
+}
+.t2{
+    width: 33%;
+     float: left;
+}
+.t3{
+    width: 33%;
+    float: left;
+}
