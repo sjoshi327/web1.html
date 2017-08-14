@@ -1,0 +1,182 @@
+.photo {
+    background: blue;
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 45px;
+    font-color: ;
+}
+
+div {
+    width: auto;
+    height: auto;
+    /*background: lightblue;*/
+    margin: auto;
+    text-align: center;
+    /*overflow: scroll;*/
+}
+
+.wrap {
+    min-width: 600px;
+    width: 100%;
+    margin: 0px 0px 0px;
+
+    height: auto;
+    overflow: hidden;
+    float: initial;
+    word-spacing: 50px;
+}
+
+
+
+.content,
+aside {
+    height: 600px;
+}
+
+.content {
+    /*background: lightblue;*/
+    float: left;
+    width: 80%;
+    height: 1000px;
+}
+
+aside ul {
+
+    list-style: none;
+    padding-left: 0
+}
+
+
+
+/* Add a grey background color to the top navigation */
+
+.topnav {
+    background-color: grey;
+    overflow: hidden;
+    height: 10%;
+    width: 100%;
+    margin-left: -8px;
+    margin-bottom: 20px;
+}
+
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    background-color: lightblue;
+    color: black;
+    text-decoration: underline;
+    font-size: 30;
+}
+
+
+
+/* Add a color to the active/current link */
+
+.topnav a.active {
+    background-color: lightblue;
+    color: white;
+}
+
+/*hero image*/
+.hero {
+    font-size: 30px;
+    text-align: center;
+    height: 500px;
+    margin: 0px -10px 0px;
+    background-image: url("../image/image1.jpg");
+    background-size: 1600px 500px;
+    background-repeat: no-repeat;
+    color: White;
+}
+
+  /*images*/
+.try {
+    width: 100%;
+    margin: 1%;
+}
+
+.t1 {
+    width: 33%;
+    float: left;
+}
+
+.try img {
+    width: 450px;
+    height: 400px;
+}
+
+.t2 {
+    width: 33%;
+    float: left;
+}
+
+.t3 {
+    width: 33%;
+    float: left;
+}
+/*footer CSS*/
+.footer1 {
+    width: 100%;
+    float: left;
+    background-color: grey;
+}
+
+.f1 {
+    width: 33%;
+    float: left;
+}
+
+.f2 {
+    width: 33%;
+    float: left;
+}
+
+.f3 {
+    width: 33%;
+    float: left;
+}
+
+.f3 img {
+    width: 30px;
+    height: 30px;
+}
+
+
+/*News images*/
+.div1 {
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+ .div1 img {
+    width: 700px;
+    height: 300px;
+}
+/*News content*/
+.div2 {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
